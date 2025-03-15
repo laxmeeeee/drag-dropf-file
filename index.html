@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>File Upload UI</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <div class="upload-container">
+            <div class="upload-box" id="drop-area">
+                <p>UPLOAD FILE</p>
+                <div class="drag-area" id="dragArea">
+                    <p>Drag & Drop</p>
+                </div>
+                <p>or</p>
+                <input type="file" id="fileInput" multiple hidden>
+                <button id="browseBtn">Browse</button>
+            </div>
+            <div class="uploads" id="uploadList"></div>
+        </div>
+
+    </body>
+</html>
