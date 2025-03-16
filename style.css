@@ -53,3 +53,13 @@ button:hover{
     background: #4A90E2;
     transition: width 0.4s ease;
 }
+@media (max-width: 480px) {
+    .upload-container {
+        padding: 15px;
+        width: 100%;
+        max-width: 90%;
+    }
+    .file-item p {
+        font-size: 14px;
+    }
+}
